@@ -18,6 +18,7 @@ h1{
 h2{
     text-align: center;
     color: red;
+    padding: 15px;
 }
 form{
     text-align: center;
@@ -37,4 +38,16 @@ form{
     font-weight: 700;
     padding: 20px;
     line-height: 15px;
+}
+.submit{
+    width: 100%;
+    line-height: 50px;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+     
+}
+h3{
+    text-align: center;
+    color: red;
 }
