@@ -32,3 +32,9 @@ form{
     margin: 10px;
     line-height: 15px;
 }
+.date{
+    width: 100%;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 15px;
+}
