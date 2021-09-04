@@ -18,28 +18,24 @@
     <div class="card">
 <p><a href="https://en.wikipedia.org/wiki/Akan_language"><strong>Akan </strong></a>is a Central Tano language and the principal native language of the Akan people of Ghana, spoken over much of the southern half of Ghana.About 80% of Ghana's population can speak Akan,and about 44% of Ghanaians are native speakers.It is also spoken in parts of Côte d'Ivoire. <br><a href="https://en.wikipedia.org/wiki/Akan_names">Akan names</a> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Interesting! right?...to know your Akan name, fill out the below form!</p>
     </div>
-
 <form>
     <h2>Akan name generator</h2>
-    <div>
-                <div class="selectbox">
-                    <select id="gender" required>
-                      <option value="">Select Gender</option>
-                      <option value="female">Female</option>
-                      <option value="male">Male</option>
-                    </select>
-        <label>Enter your birthdate:</label>
-        <input type="date">
+
+    <div class="selectbox">
+        <label for="Gender">Gender: </label>
+        <select id="gender" required>
+          <option value="">Select gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
     </div>
-    <div>
-        <label>Gender:</label>
-        <input type="date">
-    </div>
-    <div>
-        <label>Submit:</label>
-        <input type="date">
-    </div>
-    
+ <div class="Date">
+    <label for="Date">Date of Birth:</label>
+    <input id="date" type="Date" required><br>
+</div>
+<div class="submit">
+    <input type="submit" value="Submit">
+</div>
 </form>
 
 </div>

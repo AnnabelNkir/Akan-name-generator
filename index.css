@@ -19,3 +19,16 @@ h2{
     text-align: center;
     color: red;
 }
+form{
+    text-align: center;
+    box-sizing: border-box;
+    line-height: 30px;
+    
+}
+.selectbox{
+    width: 100%;
+    font-weight: 700;
+    padding: 20px;
+    margin: 10px;
+    line-height: 15px;
+}
