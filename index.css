@@ -5,4 +5,11 @@ body{
 
 .container{
     background-image: url(./Images/Flag-Ghana.jpg);
+    font-family: 'poppins' sans-serif;
+    line-height: 30px;
+    font-style: italic;
+}
+h1{
+    text-align: center;
+    color: darkorange;
 }
