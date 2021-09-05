@@ -21,7 +21,7 @@ akanForm.addEventListener("submit", (e) => {
 
     let akanName;
 
-    maleAkanNames = ["Kwasi", "Kwadwp", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+    maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 
 
     femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
@@ -85,6 +85,6 @@ akanForm.addEventListener("submit", (e) => {
         akanName = maleAkanNames[6];
     }
 
-    let result = document.getElementById("reveal-result").innerHTML = "Drumrolls!!! You were born on a " + bornDay + " so your akan name is " + akanName + "!"
+    let result = document.getElementById("result").innerHTML = "Drumrolls!!! You were born on a " + bornDay + " so your akan name is " + akanName + "!"
     document.getElementById("akanForm").reset();
 });

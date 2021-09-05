@@ -1,5 +1,5 @@
 body{
-    background-image: url(./Images/boat.jpeg);
+  background-image: url(/Images/ghana.jpg);
 }
 
 
@@ -9,7 +9,9 @@ body{
     line-height: 30px;
     font-style: italic;
     margin-top: 50px;
-    padding-left: 150px;
+    padding-left: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 h1{
     text-align: center;
@@ -20,10 +22,11 @@ h2{
     color: red;
     padding: 15px;
 }
-form{
+#akanForm{
     text-align: center;
     box-sizing: border-box;
     line-height: 30px;
+    
     
 }
 .selectbox{
@@ -44,10 +47,24 @@ form{
     line-height: 50px;
     padding: 20px;
     margin: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
+    
      
 }
 h3{
     text-align: center;
     color: red;
+}
+#result{
+    color: red;
+    text-align: center;
+    font-weight: bolder;
+    border: green;
+    font-size: 25px;
+}
+footer{
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+    text-align: right;
 }
