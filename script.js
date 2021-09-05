@@ -84,6 +84,9 @@ akanForm.addEventListener("submit", (e) => {
         bornDay = "Saturday";
         akanName = maleAkanNames[6];
     }
+    else{
+        alert("You entered invalid month or day");
+      }
 
     let result = document.getElementById("result").innerHTML = "Drumrolls!!! You were born on a " + bornDay + " so your akan name is " + akanName + "!"
     document.getElementById("akanForm").reset();

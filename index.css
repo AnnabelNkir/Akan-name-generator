@@ -44,9 +44,9 @@ h2{
 }
 .submit{
     width: 100%;
-    line-height: 50px;
-    padding: 20px;
-    margin: 15px;
+    line-height: 40px;
+    padding: 10px;
+    margin: 25px;
     border-radius: 20px;
     
      
@@ -56,7 +56,7 @@ h3{
     color: red;
 }
 #result{
-    color: red;
+    color: white;
     text-align: center;
     font-weight: bolder;
     border: green;
