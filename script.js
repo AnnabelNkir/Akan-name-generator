@@ -10,14 +10,19 @@ akanForm.addEventListener("submit", (e) => {
     let birthMonth = dateOfBirth.getMonth() + 1;
     let dayOfBirth = dateOfBirth.getDate();
 
+      //formula to get the day of the week
+
     CC = yearOfBirth.toString().substr(0, 2);
     YY = yearOfBirth.toString().substr(2, 2);
     MM = birthMonth
     DD = dayOfBirth
 
+
     dayOfTheWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;
 
     dayOfTheWeek = parseInt(dayOfTheWeek);
+
+  //Arrays for the male and female Akan mames"
 
     let akanName;
 
@@ -27,6 +32,8 @@ akanForm.addEventListener("submit", (e) => {
     femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     
     let bornDay;
+    
+//condition statements for validating input
 
     if (dayOfTheWeek == 0 && gender == "female") {
         bornDay = "Sunday";
@@ -84,10 +91,9 @@ akanForm.addEventListener("submit", (e) => {
         bornDay = "Saturday";
         akanName = maleAkanNames[6];
     }
-    else{
-        alert("You entered invalid month or day");
-      }
+  
+    
 
-    let result = document.getElementById("result").innerHTML = "Drumrolls!!! You were born on a " + bornDay + " so your akan name is " + akanName + "!"
+    let result = document.getElementById("result").innerHTML = "Drumrolls!!! You were born on a " + bornDay + " your Akan name is " + akanName + "!"
     document.getElementById("akanForm").reset();
 });
