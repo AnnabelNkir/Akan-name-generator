@@ -76,5 +76,5 @@ footer{
     color: black;
     font-size: 18px;
     font-style: italic;
-    text-align: right;
+    float: right;
 }
