@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/index.css" media="all">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +20,11 @@
     <div class="card">
 <p>Hello there! This is a web application that takes your birthday details and calculates the day of the week you were born and then depending on your gender, outputs your Akan Name.<br><a href="https://en.wikipedia.org/wiki/Akan_language"><strong>Akan </strong></a>is a Central Tano language and the principal native language of the Akan people of Ghana, spoken over much of the southern half of Ghana.About 80% of Ghana's population can speak Akan,and about 44% of Ghanaians are native speakers.It is also spoken in parts of Côte d'Ivoire. <br> <strong><a href="https://en.wikipedia.org/wiki/Akan_names">Akan names</a></strong> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Interesting! right?...to know your Akan name, fill out the below form!</p>
     </div>
-<form>
+<form id="akanForm">
     <h2>Akan name generator</h2>
 
     <div class="selectbox">
-        <label for="Gender">Gender: </label>
+        <label for="gender">Gender: </label>
         <select id="gender" required>
           <option value="">Select gender</option>
           <option value="female">Female</option>
@@ -40,9 +40,7 @@
 </div>
 </form>
 </div>
-<div id="reveal-result">
-    <h3>Yaaay! Your Akan name is; <br></h3>
-</div>
+<div id="reveal-result"></div>
 
 </div>
 

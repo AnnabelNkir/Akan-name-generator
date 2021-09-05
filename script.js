@@ -1,17 +1,11 @@
 let akanForm = document.getElementById("akanForm");
-
 akanForm.addEventListener("submit", (e) => {
     e.preventDefault();
 
     gender = document.getElementById("gender").value
-    dayOfBirth = document.getElementById("date").value
-    dayOfBirth = new Date(dayOfBirth);
+    dateOfBirth = document.getElementById("date").value
 
-    let yearOfBirth = dayOfBirth.getFullYear();
-    let birthMonth = dayOfBirth.getMonth() + 1;
-    let dayOfBirth = dayOfBirth.getDate();
-
-    dayOfBirth = new Date(dateOfBirth);
+    dateOfBirth = new Date(dateOfBirth);
 
     let yearOfBirth = dateOfBirth.getFullYear();
     let birthMonth = dateOfBirth.getMonth() + 1;
@@ -92,4 +86,3 @@ akanForm.addEventListener("submit", (e) => {
     let result = document.getElementById("reveal-result").innerHTML = "You were born on a " + bornDay + " so your akan name is " + akanName + "!"
     document.getElementById("akanForm").reset();
 });
-
