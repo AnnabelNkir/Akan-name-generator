@@ -8,7 +8,7 @@ body{
     font-family: 'poppins' sans-serif;
     line-height: 30px;
     font-style: italic;
-    margin-top: 50px;
+    margin-top: 5px;
     padding-left: 20px;
     margin-left: 20px;
     margin-right: 20px;
@@ -19,7 +19,7 @@ h1{
 }
 h2{
     text-align: center;
-    color: red;
+    color: black;
     padding: 15px;
 }
 #akanForm{
@@ -28,12 +28,14 @@ h2{
     line-height: 30px;
     border-style: solid;
     margin-top: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     padding-bottom: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
     border-radius: 20px;
     border-color: green;
+    background-color: orange;
+    
     
     
 }
@@ -64,11 +66,11 @@ h3{
     color: red;
 }
 #result{
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: left;
     font-weight: bolder;
     border: green;
-    font-size: 25px;
+    font-size: 20px;
 }
 footer{
     color: black;
