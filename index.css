@@ -9,9 +9,9 @@ body{
     line-height: 30px;
     font-style: italic;
     margin-top: 50px;
-    padding-left: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 h1{
     text-align: center;
@@ -26,6 +26,14 @@ h2{
     text-align: center;
     box-sizing: border-box;
     line-height: 30px;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    border-color: green;
     
     
 }
