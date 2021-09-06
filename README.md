@@ -1,12 +1,17 @@
 # Akan name generator
 
 #### This is a web application that generates ghanian Akan names based on the day the user was born and their gender.
+<a href="https://www.figma.com/file/8hMIrJDCVIIje1QaAlqPFH/AKAN-NAME-GENERATOR-DESIGN?node-id=0%3A1">Live link to the Akan name generator design</a>
+
 ```Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names. This app takes a user's birthday on the form provided and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. This app will take in a user's year of birth, month of birth, day of birth and select gender. Using a formula assigned to a variable in the akan.js file (dayOfWeekNumber), it will be possible to determine the exact day of the week the user was born and give them an Akan name based on their gender.```
 
 #### By **{Annabel Nkirote Micheni}** **{September 5, 2021}**
 ## Specifications
 
 For one to be able to access the akan name generator, the user should install the latest version of browser of choice and load the live link provided and navigate through the application. 
+
+<a href="https://annabelnkir.github.io/Akan-name-generator">Live link to the Akan name generator web application</a>
+
 
 ## Setup/Installation Requirements
 
@@ -48,6 +53,8 @@ I used HTML for structure,CSS for styling and Javascript for functionality, work
 
 ## Support and contact details
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at annabel.micheni@student.moringaschool.
+
+### <a href="https://annabelnkir.github.io/Akan-name-generator">Live link to the Akan name generator web application</a>
 
 ### MIT License
 
