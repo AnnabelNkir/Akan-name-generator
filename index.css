@@ -31,8 +31,9 @@ h2{
     margin-top: 20px;
     margin-bottom: 50px;
     padding-bottom: 20px;
+    padding-right: 40px;
     margin-left: 350px;
-    margin-right: 350px;
+    margin-right: 270px;
     border-radius: 20px;
     border-color: green;
     background-color: orange;
@@ -72,8 +73,7 @@ h3{
     font-weight: bolder;
     border: green;
     font-size: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
+   
 }
 footer{
     color: black;
