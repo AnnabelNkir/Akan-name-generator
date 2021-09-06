@@ -6,6 +6,7 @@ akanForm.addEventListener("submit", (e) => {
     dateOfBirth = document.getElementById("date").value
     dateOfBirth = new Date(dateOfBirth);
 
+
     let yearOfBirth = dateOfBirth.getFullYear();
     let birthMonth = dateOfBirth.getMonth() + 1;
     let dayOfBirth = dateOfBirth.getDate();
