@@ -44,7 +44,7 @@ ii) The akan name.
 There are no unresolved bugs in this code.
 
 ## Technologies Used
-I used HTML for structure,CSS for styling and Javascript worked on Linux Os and used VS-code as my text/code editor and Git applications.
+I used HTML for structure,CSS for styling and Javascript for functionality, worked on Linux Os and used VS-code as my text/code editor and Git applications.
 
 ## Support and contact details
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at annabel.micheni@student.moringaschool.
